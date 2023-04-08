@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    background-image:url(https://i.blogs.es/096676/261291431585911280/1366_521.jpg) ;
+    background-repeat: repeat;
+    opacity: 2;
+    padding: 0;
+    font-size: 28px;
+    font-family: 'Source Code Pro', monospace;    
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+header nav{
+    display: flex;
+    background-color: #839fba;
+    opacity: .6;
+}
+header nav .nav-right-seccion{
+    display: flex;
+    width: 60%;
+    list-style: none;
+    align-self: center;
+}
+header ul li a{
+    margin: 20px;
+    color: #000;
+}
+nav .nav-right-seccion a{
+    margin-top: auto;
+    color: #000;
+}
+.nav-right-seccion a:hover{
+    margin-top: auto;
+    color: #483bda;
+}
+
+nav .nav-left-seccion .Menu_icono{
+    cursor: pointer;
+    list-style: none;
+    background-image: url('https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/playstation-512.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    border-radius: 10%;
+    margin-right: 100px;
+}
+main{
+    margin-top: 90px;
+    text-align: left;
+    justify-content: left; 
+    align-items: center;
+    color: aliceblue;
+}
+
+main .titulo{
+    display:flex;
+    text-align: r;
+    font-size:70px ;
+	width:75%;
+	left: 250px;
+    margin: 20px;
+}
+.Imagen1{
+    height: 500px;
+    margin-inline: 500px;
+    border-top: 15px solid #080809 ;
+    border-left: 15px solid #080809 ;
+    border-right: 15px solid #080809 ;
+    border-bottom: 15px solid #080809 ;
+}
+.Imagen1:hover {
+    filter: grayscale(80%);
+}
+.Imagen2{
+    height: 500px;
+    margin-inline: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 15px solid #f7f8fc ;
+    border-left: 15px solid #f7f8fc ;
+    border-right: 15px solid #f7f8fc ;
+    border-bottom: 15px solid #f7f8fc ;
+}
+.Imagen2:hover {
+    filter: blur(5px);
+}
+.Imagen3{
+    height: 600px;
+    margin-inline: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 15px solid #080809 ;
+    border-left: 15px solid #080809 ;
+    border-right: 15px solid #080809 ;
+    border-bottom: 15px solid #080809 ;
+}
+.Imagen3:hover {
+    filter: sepia(60%);;
+}
+.Imagen4{
+    height: 700px;
+    margin-inline: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 15px solid #f7f8fc ;
+    border-left: 15px solid #f7f8fc ;
+    border-right: 15px solid #f7f8fc ;
+    border-bottom: 15px solid #f7f8fc ;
+}
+.Imagen4:hover {
+    filter: saturate(280%);
+}
+.Imagen5{
+    height: 500px;
+    margin-inline: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 15px solid #080809 ;
+    border-left: 15px solid #080809 ;
+    border-right: 15px solid #080809 ;
+    border-bottom: 15px solid #080809 ;
+}
+.Imagen5:hover {
+    filter: grayscale(80%);
+}
+.Imagen6{
+    height: 500px;
+    margin-inline: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 15px solid #f7f8fc ;
+    border-left: 15px solid #f7f8fc ;
+    border-right: 15px solid #f7f8fc ;
+    border-bottom: 15px solid #f7f8fc ;
+}
+.Imagen6:hover {
+    filter: blur(5px);
+}
+.Imagen7{
+    height: 500px;
+    margin-inline: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 15px solid #080809 ;
+    border-left: 15px solid #080809 ;
+    border-right: 15px solid #080809 ;
+    border-bottom: 15px solid #080809 ;
+}
+.Imagen7:hover {
+    filter: sepia(60%);;
+}
+.Imagen8{
+    height: 500px;
+    margin-inline: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 15px solid #f7f8fc ;
+    border-left: 15px solid #f7f8fc ;
+    border-right: 15px solid #f7f8fc ;
+    border-bottom: 15px solid #f7f8fc ;
+}
+.Imagen8:hover {
+    filter: saturate(280%);
+}
+.Imagen9{
+    height: 600px;
+    margin-inline: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 15px solid #080809 ;
+    border-left: 15px solid #080809 ;
+    border-right: 15px solid #080809 ;
+    border-bottom: 15px solid #080809 ;
+}
+.Imagen9:hover {
+    filter: grayscale(80%);
+}
+main .texto_central{
+    font-size: x-large;
+    display: flex;
+    text-align: left;
+	width:75%;
+	left:20px;
+    margin-bottom: 90px;
+    margin-left: 20px;
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    background-color: #839fba;
+    border-top: 9px solid #0c0c0c ;
+    opacity: 1;
+    
+}
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer .footer-left{
+    justify-self: center;
+}
+.footer-left a:hover{
+color: #483bda;
+}
+footer ul li a{
+    margin: 160px;
+    color: #000;
+}
